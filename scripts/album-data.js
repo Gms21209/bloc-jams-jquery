@@ -1,5 +1,5 @@
 const album = {
-  title: 'The Colors',
+  title: 'The Color',
   artist: 'Pablo Picasso',
   releaseInfo: '1909 Spanish Records',
   albumArtUrl: 'assets/images/album_covers/01.png',
