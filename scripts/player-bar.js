@@ -71,7 +71,7 @@
     if (player.playState !== 'playing') { return; }
     const lastSongIndex = album.songs.indexOf(player.currentlyPlaying);
     const previousSongIndex = lastSongIndex - 1;
-    if (previousSongIndex >= album.songs.length) { return; }
+    if (previousSongIndex < 0) { return; }
     const previousSong = album.songs[previousSongIndex];
     player.playPause(previousSong);
 
